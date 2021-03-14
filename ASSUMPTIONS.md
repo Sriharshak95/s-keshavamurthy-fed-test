@@ -1,6 +1,8 @@
 ## Description of my solution
 
-Talk us through your solution, thought process etc here.
+* This solution was built using React Functional components and hooks.
+* The styling is done using CSS modules and approriate configuration is made in `webpack.config.babel.js` file.
+* The application has be structured into screens and reusable components.
 
 ## Things I would do next
 
