@@ -1,0 +1,27 @@
+@font-face{
+    font-family:'NunitoM';
+    src:url(../../../fonts/Nunito-SemiBold.ttf) format('truetype');
+}
+
+.navbar{
+    position: fixed;
+    top:0;
+    z-index: 1080;
+    width: 100%;
+    display:flex;
+    align-items:center;
+    padding:.5rem 1rem;
+    box-shadow: 0 2px 2px #dadada;
+    background-color: #f8f9fa;
+}
+
+.navlogo{
+    display: inline-block;
+    font-family: 'NunitoM';
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}

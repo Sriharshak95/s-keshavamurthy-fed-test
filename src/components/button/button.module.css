@@ -1,0 +1,24 @@
+@font-face{
+    font-family:'NunitoR';
+    src:url(../../../fonts/Nunito-Regular.ttf) format('truetype');
+}
+
+.loadButton{
+    padding:10px;
+    font-size:15px;
+    border:0;
+    color:#ffffff;
+    background-color: #112753;
+    cursor:pointer;
+    font-family: 'NunitoR';
+}
+
+.loadButton:hover{
+    background-color: #8a8a8a;
+}
+
+.buttonIcon{
+    width:24px;
+    vertical-align:middle;
+    padding-right:10px;
+}

@@ -81,7 +81,7 @@ const svg = {
 };
 
 const images = {
-	test: /\.(woff(2)?|ttf|eot|png|jpg|gif)(\?v=\d+\.\d+\.\d+)?$/,
+	test: /\.(woff(2)?|eot|png|jpg|gif)(\?v=\d+\.\d+\.\d+)?$/,
 	use: {
 		loader: 'file-loader',
 		options: {
@@ -147,7 +147,24 @@ const defaultConfig = {
 		}
 	},
 	module: {
-		rules: [js, svg, images]
+		rules: [js, svg, images,{
+			test: /\.css$/i,
+			exclude: /node_modules/,
+			use: [
+			  'style-loader',
+			  {
+				loader: 'css-loader',
+				options: {
+				  modules: true,
+				},
+			  },
+			],
+		  },
+		  {
+			  test: /\.(ttf)$/,
+			  loader:'file-loader'
+		   }
+		]
 	},
 	optimization: {
 		splitChunks: {
@@ -173,7 +190,7 @@ const devConfig = {
 		contentBase: path.join(__dirname, 'public'),
 		compress: true,
 		port: 8008,
-		https: true,
+		https: false,
 		historyApiFallback: true,
 		publicPath: '/',
 		host: '0.0.0.0'
