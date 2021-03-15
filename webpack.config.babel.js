@@ -190,7 +190,7 @@ const devConfig = {
 		contentBase: path.join(__dirname, 'public'),
 		compress: true,
 		port: 8008,
-		https: false,
+		https: true,
 		historyApiFallback: true,
 		publicPath: '/',
 		host: '0.0.0.0'
