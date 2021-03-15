@@ -14,7 +14,7 @@
 
 ## Assumptions that I made
 
-* While exploring the API end point I have used the [RandomUser.me/results=5](https://randomuser.me/api/?page=1&results=5) that will fetch 5 random results at a time. This was used in view of solving the problem of generating 5 random profiles, as [RandomUser.me API](https://randomuser.me/api/) provides data of a single profile.
+* While exploring the API end point I have used the [RandomUser.me/results=5](https://randomuser.me/api/?page=1&results=5) that will fetch 5 random results at a time. This was used in view of solving the problem of generating 5 random profiles, as [RandomUser.me API](https://randomuser.me/api/) provides data of a single profile and generate more API requests.
 * I have modified the `webpack.config.babel.js` to enable CSS modules and different font styling to be used in the application.
 
 ## Libraries used
