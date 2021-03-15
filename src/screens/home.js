@@ -32,7 +32,7 @@ const Home = () => {
         getUser('?page=1&results=5')
             .then(data => {
                 setFlag(true);
-                setData(prevArray => prevArray.concat(data.results));
+                setData(prevArray => [...prevArray,...data.results]);
                 handleScroll();
             })
             .catch(error => console.error(error));
