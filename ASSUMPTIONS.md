@@ -14,12 +14,12 @@
 
 ## Assumptions that I made
 
-* While exploring the API end point I have used the [RandomUser.me/results=5] (https://randomuser.me/api/?page=1&results=5) that will fetch 5 random results at a time. This was used in view of solving the problem of generating 5 random profiles, as [RandomUser.me API](https://randomuser.me/api/) provides data of a single profile.
+* While exploring the API end point I have used the [RandomUser.me/results=5](https://randomuser.me/api/?page=1&results=5) that will fetch 5 random results at a time. This was used in view of solving the problem of generating 5 random profiles, as [RandomUser.me API](https://randomuser.me/api/) provides data of a single profile.
 * I have modified the `webpack.config.babel.js` to enable CSS modules and different font styling to be used in the application.
 
 ## Libraries used
 
-[momentJs] (https://momentjs.com/)
-[react-moment] (https://www.npmjs.com/package/react-moment) - used for formatting Date of birth.
-[css-loader] (https://webpack.js.org/loaders/css-loader/) - used for loading css in the DOM.
-[style-loader] (https://webpack.js.org/loaders/style-loader/) - used for loading css in the DOM.
+* [momentJs](https://momentjs.com/)
+* [react-moment](https://www.npmjs.com/package/react-moment) - used for formatting Date of birth.
+* [css-loader](https://webpack.js.org/loaders/css-loader/) - used for loading css in the DOM.
+* [style-loader](https://webpack.js.org/loaders/style-loader/) - used for loading css in the DOM.
